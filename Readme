@@ -1,0 +1,15 @@
+### Para gerar relatorio ####
+
+1 - Rode os testes
+2 - Dentro da pasta do projeto digite no terminal
+        ./gradlew clean test
+3 - depois rode o seguinte comando
+    allure serve //Users/<caminho_do_seu_projeto>/build/allure-results
+3.1 - O report html sera gerado e aberto automaticamente no navegador
+4 - no log do terminal copie o caminho para onde o report foi gerado ex:
+    /var/folders/7m/8vxht4vd1xb5z1xz4jzkhnnh0000gp/T/1937455504046159851/allure-report
+5 - Crie uma conta no site: netlify.com
+6 - Com a conta criada, abra o caminho onde o report foi criado, e arraste para o site gerar o link
+7 - click no link gerado e envie este link para as pessoas interessadas.
+
+###################
